@@ -1,0 +1,19 @@
+Start
+Initialize sum = 0
+Initialize count = 0
+Display "Enter numbers one by one. Enter -1 to finish."
+
+While true
+    Prompt user for input
+    If input == -1
+        Break loop
+    Else
+        Add input to sum
+        Increment count
+
+If count == 0
+    Display "No numbers entered. Cannot compute average."
+Else
+    Calculate average = sum / count
+    Display "The average is: " + average
+End
